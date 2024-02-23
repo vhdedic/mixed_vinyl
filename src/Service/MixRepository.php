@@ -31,6 +31,7 @@ class MixRepository
         $this->twigDebugCommand->run(new ArrayInput([]), $output);
         dd($output); 
         */
+        
 
 		return $this->cache->get('mixes_data', function(CacheItemInterface $cacheItem) {
             
